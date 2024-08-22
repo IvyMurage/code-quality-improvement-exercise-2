@@ -1,0 +1,1 @@
+const flattenArray = array => array.reduce((flattenedArray, element) => typeof element === 'object' ? flattenedArray.concat(flattenArray(element)) : flattenedArray.push(element))

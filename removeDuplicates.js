@@ -1,0 +1,1 @@
+const uniqueArray = array => [...new Set(array)]
