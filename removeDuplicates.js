@@ -1,1 +1,1 @@
-const uniqueArray = array => [...new Set(array)]
+const uniqueItems = array => [...new Set(array)]
